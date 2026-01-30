@@ -1,4 +1,5 @@
 import { Suspense } from "react";
+import { createBrowserRouter } from "react-router-dom";
 import Layout from "../Pages/Layout";
 import ErrorBoundary from "../Components/Error Boundary/ErrorBoundary";
 import Home from "../Pages/Home";
@@ -7,7 +8,7 @@ import Contact from "../Pages/contact";
 import Features from "../Pages/Features";
 import Recorder from "../Pages/Recorder";
 
-export const routers = [
+export const router = createBrowserRouter([
     {
         path: '/',
         element: <Layout />,
@@ -64,4 +65,4 @@ export const routers = [
             }
         ]
     }
-]
+]);
