@@ -1,0 +1,33 @@
+/* Using web-safe system fonts to avoid external fetch errors */
+
+/* Modern sans-serif font stack for display text */
+@font-face {
+  font-family: 'Display Font';
+  src: local('Helvetica Neue'), local('Arial');
+  font-weight: 300 900;
+  font-display: swap;
+}
+
+/* Serif font stack for headings */
+@font-face {
+  font-family: 'Heading Font';
+  src: local('Georgia'), local('Times New Roman');
+  font-weight: 400 900;
+  font-display: swap;
+}
+
+/* System font stack for body text */
+@font-face {
+  font-family: 'Body Font';
+  src: local('system-ui'), local('Arial');
+  font-weight: 300 800;
+  font-display: swap;
+}
+
+/* Modern sans-serif for accents */
+@font-face {
+  font-family: 'Accent Font';
+  src: local('Helvetica'), local('Arial');
+  font-weight: 300 900;
+  font-display: swap;
+}
