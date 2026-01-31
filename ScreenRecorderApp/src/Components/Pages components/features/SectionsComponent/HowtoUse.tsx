@@ -1,5 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
-import { StepCardData, type StepCardProps } from "../AboutData/HowtoUseData";
+import { StepCardData, type StepCardProps } from "../featuresData/HowtoUseData";
 
 const HowtoUse = () => {
     return (

@@ -1,4 +1,4 @@
-import { UseCaseCardData, type UseCaseCardProps } from '../AboutData/UseCasesData'
+import { UseCaseCardData, type UseCaseCardProps } from '../featuresData/UseCasesData'
 import { CheckCircle2 } from 'lucide-react'
 
 const UseCases = () => {

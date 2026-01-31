@@ -1,8 +1,8 @@
-import FeatureHeader from '../Components/Pages components/About/SectionsComponent/FeatureHeader';
-import MainFeatureCards from '../Components/Pages components/About/SectionsComponent/MainFeatureCards';
-import HowtoUse from '../Components/Pages components/About/SectionsComponent/HowtoUse';
-import WhyChooseUs from '../Components/Pages components/About/SectionsComponent/WhyChooseUs';
-import UseCases from '../Components/Pages components/About/SectionsComponent/UseCases';
+import FeatureHeader from '../Components/Pages components/features/SectionsComponent/FeatureHeader';
+import MainFeatureCards from '../Components/Pages components/features/SectionsComponent/MainFeatureCards';
+import HowtoUse from '../Components/Pages components/features/SectionsComponent/HowtoUse';
+import WhyChooseUs from '../Components/Pages components/features/SectionsComponent/WhyChooseUs';
+import UseCases from '../Components/Pages components/features/SectionsComponent/UseCases';
 import ErrorBoundary from '../Components/Error Boundary/ErrorBoundary';
 
 

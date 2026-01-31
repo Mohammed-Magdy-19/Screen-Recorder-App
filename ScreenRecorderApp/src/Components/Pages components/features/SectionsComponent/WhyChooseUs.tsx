@@ -1,4 +1,4 @@
-import { BenefitCardData, type BenefitCardProps } from "../AboutData/BenefitCardData";
+import { BenefitCardData, type BenefitCardProps } from "../featuresData/BenefitCardData";
 
 
 const WhyChooseUs = () => {

@@ -1,4 +1,4 @@
-import { MainFeatureCardData, type MainFeatureCardProps } from "../AboutData/MainFeatureData"
+import { MainFeatureCardData, type MainFeatureCardProps } from "../featuresData/MainFeatureData"
 
 const MainFeatureCards = () => {
     return (
