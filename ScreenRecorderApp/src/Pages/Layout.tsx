@@ -3,7 +3,6 @@ import Header from "../Components/Layout components/Header"
 import Footer from "../Components/Layout components/Footer"
 import ErrorBoundary from "../Components/Error Boundary/ErrorBoundary"
 
-
 function Layout() {
     return (
         <>
@@ -24,7 +23,4 @@ function Layout() {
     )
 }
 
-
-
 export default Layout
-
