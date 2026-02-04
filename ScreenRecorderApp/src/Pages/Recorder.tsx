@@ -6,13 +6,15 @@ import RecordSystem from "@/Components/Pages components/Recorder/SectionsCompone
 const Recorder = () => {
     return (
         <main className="min-h-screen" style={{ fontFamily: 'var(--font-body)' }}>
-            <ErrorBoundary>
-                <RecordSystem />
-            </ErrorBoundary>
+            <article className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <ErrorBoundary>
+                    <RecordSystem />
+                </ErrorBoundary>
 
-            <ErrorBoundary>
-                <Instructions />
-            </ErrorBoundary>
+                <ErrorBoundary>
+                    <Instructions />
+                </ErrorBoundary>
+            </article>
         </main>
     )
 }
