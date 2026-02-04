@@ -1,4 +1,4 @@
-import { useForm } from "react-hook-form";
+import { useForm, type SubmitHandler } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Send } from "lucide-react";
 import { toast } from "sonner";
@@ -14,9 +14,11 @@ import {
 import { Input } from "../../../ui/input";
 import { Textarea } from "../../../ui/textarea";
 import { contactFormSchema, type ContactFormValues } from "../contactData/Contactformschema";
+import { useNavigate } from "react-router-dom";
 
 
 const ContactForm = () => {
+    const navigate = useNavigate();
     const form = useForm<ContactFormValues>({
         resolver: zodResolver(contactFormSchema),
         defaultValues: {
@@ -27,11 +29,12 @@ const ContactForm = () => {
         },
     });
 
-    const onSubmit = (data: ContactFormValues) => {
+    const onSubmit: SubmitHandler<ContactFormValues> = (data) => {
         console.log(data)
         toast.success("Message sent successfully!", {
             description: "We'll get back to you within 24 hours.",
         });
+        navigate('/');
     };
 
     return (
